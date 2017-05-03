@@ -191,13 +191,12 @@
 }
 .fa-search:before {
   /*content: "\f002";*/
-  content:url(../images/gallery/ICONOS/icon.png);
-  margin-top:50px;
+  content:url(../img/car.png);
 }
 
 .fa-flask:before {
   content: "\f0c3";
-  content:url(../images/gallery/ICONOS/soporte.png);
+  content:url(../img/conta.png);
 }
 
 .fa-envelope-o:before {
@@ -205,6 +204,7 @@
 }
 .fa-heart:before {
   content: "\f004";
+  content:url(../img/admin.png);
 }
 .fa-star:before {
   content: "\f005";
@@ -1375,8 +1375,7 @@
 .fa-institution:before,
 .fa-bank:before,
 .fa-university:before {
-  /*content: "\f19c";*/
-  content:url(../images/gallery/ICONOS/sim.png);
+ content:url(../img/loca.png);
 }
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
