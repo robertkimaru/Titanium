@@ -1,0 +1,219 @@
+
+
+
+    .idi {
+		/*margin-top:23px;*/
+		z-index:4000;
+		font-size:1.3em;
+		position:fixed;
+}
+
+  .idi a {
+	  padding-left:10px;
+	  font-family:calibri;
+}
+
+.log{
+	margin-top:23px;}
+
+.ima{
+	margin-top:2px;}
+	
+#wrapper  ul .redes li{
+		   padding:0;
+		   margin:0;}
+
+ .pri {
+	  line-height: 20pt;
+	  margin-bottom:30px;
+	  
+} 
+
+.initext p{
+	font-size:25px;
+	margin:0;
+	padding:0;
+	font-family: oswald;
+    font-weight: 400;
+	}
+
+.dd{
+	margin-top:160px;
+	}
+	
+	#slitSlider .carousel-caption img {
+    vertical-align: middle;
+    display: table-cell;
+	margin:auto;
+}
+
+         .about-content .tt{
+						text-align:justify;}
+						
+					.about-content h3{
+						color:orange;}	
+						
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+} 	
+
+.prox{
+		color:orange;
+		font-family: 'Lato', sans-serif;
+		font-size:20px;
+		margin-bottom:21px;}
+
+.prueba{
+	letter-spacing: 1px}
+
+						 .kk input{
+							 width:30%;
+							 margin-bottom:10px;}
+							 
+						.sendcont input{
+							 width:100%;
+							 margin-bottom:10px;}	 
+							 
+						 .kk2 input{
+							 margin-bottom:15px;}
+						
+input[type='submit'] {
+ background-image: url(img/send.png);
+/*content:"\f008";*/
+ background-position: 7px 12px;
+ background-repeat: no-repeat;
+}
+
+.def p {
+		font-size:1.1em; 
+			font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		}
+		
+		.def h3 {
+		font-size:2.2em; 
+		}
+
+.ModMenu{
+					font-size:1.2em;
+					font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+				}
+
+/*=================================================================
+	QUEDE CENTRADO LA COLUMNA DEL TEXTO Definicion DE LOS MODULOS
+==================================================================*/
+
+@media only screen and (min-width : 1200px) {
+.parent {
+    display: table;
+    table-layout: fixed;
+}
+
+.child {
+    display:table-cell;
+    vertical-align:middle;
+	float: none;
+} }
+		
+
+.colorOrange{
+	color: orange;
+}
+
+.BoxComp{
+padding: 15px 20px; 
+margin-top: 35px;
+				
+		}
+
+/*=================================================================
+	Seccion Actualizaciones - Iconos Der/Iza
+==================================================================*/
+.tituloTop{
+   margin-top: 6%;
+			  
+		   }
+
+
+.IconIpad{
+			   display: inline;
+			   font-size: 1.5em;
+			   
+		   }
+		   
+		    .abajoIcon{
+			  margin-top: 5%;
+				margin-bottom: 5%;
+		   }
+			  
+			  .abajoIcon2{
+			  margin-top: 5%;
+			  margin-bottom: 5%;
+		   }
+		   
+		  @media only screen and (min-width : 1000px) { 
+			  
+			  #update img{
+			   margin-bottom: 60px;
+		   }
+		   
+		   .abajoIcon{
+			  margin-top: 25%;
+	    	  text-align: right;
+		   }
+			  
+			  .abajoIcon2{
+			  margin-top: 25%;
+	    	  text-align: left;
+		   }
+			  
+			   }
+/*=================================================================
+	Seccion Distribuidores - Iconos Der/Iza
+==================================================================*/
+
+#distribuidor h2{
+				margin-top: 8%;
+			}
+
+
+/*=================================================================
+	Basic Setup
+==================================================================*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 11%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 11%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 11%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 11%;
+        float: left;
+    }
+}

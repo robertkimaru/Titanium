@@ -4,7 +4,10 @@
     <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		
-        <title>TITANIUM: Software para administración de flotillas</title>
+        <title>Software ERP para Transporte – Titanium ERP</title>
+        
+        <meta name="description" content="Software ERP para empresas de transporte. Administra fácilmente las operaciones de tu flotilla, control de viajes, mantenimientos, carta porte, facturación.">
+        <meta name="keywords" content="Soluciones M2M, rastreo satelital, Sims de datos m2m, sims m2m, tecnología m2m, Equipos GPS, Software para empresas, chips m2m"/>
 		
 		<!-- Mobile Specific Meta
 		================================================== -->
@@ -38,15 +41,17 @@
         <link rel="stylesheet" href="css/menu.css" >
         <!-- Scroll down Icono -->
         <link rel="stylesheet" href="css/IconScroll.css">
-        <!-- Add fancyBox main JS and CSS files -->
-		<link rel="stylesheet" type="text/css" href="css/source/jquery.fancybox.css?v=2.1.5" media="screen" />
-
 		<!-- Oswald / Title Font -->
-		<link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet" type="text/css">
 		<!-- Ubuntu / Body Font -->
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300" rel="stylesheet" type="text/css">
 		<!-- lato/ Title Font -->
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <!-- Css Efecto links Modulos -->
+        <link rel="stylesheet" href="css/links.css">
+         <!-- Css Adicionales -->
+        <link rel="stylesheet" href="css/mio.css" >
+        
         
         <!-- Main jQuery -->
 		<script src="js/jquery-1.12.2.min.js"></script>
@@ -55,7 +60,7 @@
         <script src="js/modernizr-2.6.2.min.js"></script>
         
         <!-- Google analytics-->
-        <script>
+         <script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
  		 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -72,7 +77,7 @@
     <body id="body">
     
      <button type="button" class="hamburger is-closed" data-toggle="offcanvas"> 
-                <h4 class="let">Menu </h4>
+                <h4 class="let">Menu</h4>
                 <span class="hamb-top"></span>
           <span class="hamb-middle"></span>
         <span class="hamb-bottom"></span>
@@ -93,159 +98,129 @@
         <!--
         Welcome Slider
         ==================================== -->
-           <style>
-    .idi {
-		margin-top:23px;
-		z-index: 2000;
-		font-size:1.3em;
-		position:fixed;
-}
-
-  .idi a {
-	  padding-left:10px;
-	  font-family:calibri;
-}
-
-#wrapper  ul .redes li{
-		   padding:0;
-		   margin:0;}
-
- .pri {
-	  line-height: 18pt;
-	  margin-bottom:30px;
-	  
-} 
-
-.initext p{
-	font-size:25px;
-	margin:0;
-	padding:0;
-	font-family: oswald;
-    font-weight: 400;
-	}
-
-.dd{
-	margin-top:160px;
-	}
-
-       </style>
+ 
        
-		<section id="home">	    
-		 <div class="col-sm-11 text-right idi">
-         <a lang="en" href="#" title="English" class="fa-thumbs-down"></a>
-                               <a href="http://www.titaniumerp.net/session" target="_blank"> <div class="fa fa-user"></div>  Login </a> 
-                        </div>  <!--/.col-md-12-->  
-    
+		<section id="home">	   
+               
+            <div class="col-sm-12 idi">
+            	<div class="row">
+                	<div class="col-sm-8 col-sm-offset-2 ima">
+            			 <img class="fadeInUp center-block"  src="img/logo-tita.png" alt="titanium">
+            		</div>  <!--/.col-sm-8-->
+                	<div class="col-sm-2 text-center log">
+            			 <a lang="en" href="#" title="English" class="fa-thumbs-down"></a>
+                         <a href="http://www.titaniumerp.net/session" target="_blank"> <div class="fa fa-user"></div>  Login </a> 
+            		</div>  <!--/.col-sm-2-->
+                </div>  <!--/.row-->
+            </div>  <!--/.col-sm-11 text-right idi-->  
        
        
            <div id="slitSlider" class="sl-slider-wrapper">
             
+            <div class="sl-slider">
+					
 					<!-- single slide item -->
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-                         
 						<div class="sl-slide-inner">
-                         
-							<div class="bg-img bg-img-1"> </div>
-                            
-                         
-                            
-             
-            				
-						<div class="carousel-caption">
-								<img class="wow fadeInUp" src="img/titanium.png" alt="titanium">
-                                
-								<!--<h2 data-wow-duration="500ms"  data-wow-delay="500ms" class="heading animated fadeInRight">Bienvenido a TITANIUM!</h2>-->
-                                <div class="initext">
-                               <!--<a href="" class="fa-flickr">Español</a>
-                               <a lang="en" href="Ingles.html" class="fa-thumbs-down">  English</a>--> 
-                               <br>
-                               <p>Administración Fácil y Optimización Rápida. </p> 
-                               <p>Administra y optimiza las operaciones de tu flotilla con el mejor software.  </p> 
-                               <div class="dd scrolldown"><h4>Desplace hacia abajo</h4></div> 
-                                     
-                            </div>
-							</div>
-						
                         
-                        </div> 
+							<div class="bg-img bg-img-1"></div>
+						<div class="carousel-caption">
+							<div>
+								<!--<img class="wow fadeInUp" src="img/titanium.png" alt="titanium">-->
+                                <div class="col-sm-8 text-left primer">
+								<h2 data-wow-duration="500ms"  data-wow-delay="500ms" class="heading animated fadeInRight">Optimiza las operaciones de tu flotilla<br><span class="menorImp"> con el mejor software para transporte</span></h2><a class="btn btn-green animated fadeInUp" href="#"><strong style="letter-spacing:1px;">Conoce más</strong></a>
+								</div>
+                            </div>
+						</div>
 						</div>
 					</div>
 					<!-- /single slide item -->
-				
 					
+					<!-- single slide item -->
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-5"></div>
+						<div class="carousel-caption">
+							<div>
+                            	<div class="col-sm-8 text-left negro">
+								<h2 class="heading animated fadeInDown">Aumenta la productividad de tus vehículos,<br><span class="menorImp">mantenlos en óptimas condiciones con ayuda de Titanium ERP</span></h2>
+                          		<a class="btn btn-green animated fadeInUp" href="#" ><strong style="letter-spacing:1px;">Contáctanos</strong></a>
+                          		</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- /single slide item -->
+					
+					<!-- single slide item -->
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-6"></div>
+						<div class="carousel-caption">
+							<div>
+                            	<div class="col-sm-7 col-sm-offset-5 text-left verde">
+								<h2 class="heading animated fadeInRight">Toma el control de todos los aspectos <br><span class="menorImp">de tu empresa de transporte e incrementa tus ingresos</span></h2>
+                                <a class="btn btn-green animated fadeInUp" href="#contact-us"><strong style="letter-spacing:1px;">Más información</strong></a>
+                                </div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- /single slide item -->
 
-			</div> <!--/slider-wrapper -->
+				</div><!-- /sl-slider -->
+				
+				<!--<nav id="nav-arrows" class="nav-arrows">
+					<span class="nav-arrow-prev">Previous</span>
+					<span class="nav-arrow-next">Next</span>
+					</nav>-->
+
+				<nav id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+				</nav>
+
+			</div><!-- /slider-wrapper -->
 		</section>
 		<!--/#home section-->
+		
 		
         <!-- 
         Fixed Navigation
         ==================================== -->
         <header id="navigation" class="navbar navbar-inverse">
-        <img class="wow fadeInUp center-block"  src="img/logo-tita.png" alt="titanium">
+          <div id="wrapper">
                 
-                <div id="wrapper">
-                
-                <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-                <ul class="nav sidebar-nav">
-                <ul id="nav" class="nav sidebar-nav">
-              
-              <br><br><br><br><br>
-              
-         
-               <div class="logo">
-              <a href="#"><img src="img/logoloco.png" alt="logo"></a>
-                </div>
-                
-                <br><br><br><br>
-                
-                <li><a href="#body">Inicio</a></li>
-                <li><a href="#about">Software</a></li>
-                <li><a href="#main-features">Tour</a></li>
-                 <li><a href="#services">Módulos</a></li>
-                <li> <a href="precios.html">Precios</a> </li>
-                <li><a href="Distribuidor.html">Ser Distribuidor</a></li>
-                <li> <a href="#demo">Demo</a> </li>
-                <li> <a href="#contact-us">Contacto</a> </li>
-         <li class="redes"> <a href="https://www.facebook.com/Titanium-ERP-775254112577941/" target="_blank"><img src="img/fac.png" alt=""></a></li>
-      <li class="redes"> <a href="https://www.youtube.com/channel/UClw8eORlXYNwf6Y8e23E89g" target="_blank"><img src="img/fac4.png" alt=""></a></li>
-              <li class="redes"> <a href="https://twitter.com/TitaniumERP" target="_blank"><img src="img/fac2.png" alt="" ></a></li>
-              <!--    <li class="redes"> <a href="https://www.linkedin.com/in/prossea?authType=name&authToken=Hd2d&csrfToken=ajax%3A8595411590649973897&trk=nav_utilities_invites_name" target="_blank"><img src="img/fac3.png" alt=""></a></li>-->
-                <br> <br>
-               
-               <!-- <li class=""> <a href="http://www.titaniumerp.net/login"> <div class="fa fa-user"> </div>  Login</a> </li>-->
-              
-            </ul>
-            
-            
-        </nav>	
+			  <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper">
+				<div class="nav sidebar-nav">
+					
+				 <ul id="nav" class="nav sidebar-nav">
+				    <div class="logo">
+				 	 	<a href="#"><img src="img/logoloco.png" alt="logo"></a>
+				    </div>
+					<li><a href="#body">Inicio</a></li>
+					<li><a href="#main-features">Módulos</a></li>
+					<li> <a href="#">Precios</a> </li>
+					<li><a href="#demo">Ventajas</a></li>
+					<li><a href="#update">Actualizaciones</a></li>
+					<li><a href="#distribuidor">Ser Distribuidor</a></li>
+					<li> <a href="#contact-us">Contacto</a> </li>
+					<li class="redes"> <a href="https://www.facebook.com/Titanium-ERP-775254112577941/" target="_blank"><img src="img/fac.png" alt=""></a></li>
+					<li class="redes"> <a href="https://www.youtube.com/channel/UClw8eORlXYNwf6Y8e23E89g" target="_blank"><img src="img/fac4.png" alt=""></a></li>
+				 	<li class="redes"> <a href="https://twitter.com/TitaniumERP" target="_blank"><img src="img/fac2.png" alt="" ></a></li>
+				 	<!--<li class="redes"> <a href="https://www.linkedin.com/company-beta/2987864/" target="_blank"><img src="img/fac3.png" alt=""></a></li>-->
+				</ul>
+				
+			  </div>
+			 </nav>	
             	
-            </div>
+         </div>
         </header>
         <!--
         End Fixed Navigation
         ==================================== -->
         
-           <style>
-                    .about-content .tt{
-						text-align:justify;}
-						
-					.about-content h3{
-						color:orange;}	
-						
-input[type=number]::-webkit-outer-spin-button,
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-input[type=number] {
-    -moz-appearance:textfield;
-} 	
-
-
-                    </style>
-		
 		<!--
 		Start About Section
 		==================================== -->
@@ -253,404 +228,335 @@ input[type=number] {
 			<div class="container">
 				<div class="row">
 				
-					<!-- section title -->
+					<!-- section title 
 					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
 						<h2>Acerca <span class="color">Software</span></h2>
 						<div class="border"></div>
 					</div>
-					<!-- /section title -->
+					 /section title -->
                     
                     
                     <!-- section title -->
-					<div class="col-md-6 df title wow fadeIn text-justify" data-wow-duration="1500ms" >
-				<h4 class="pri">Titanium ERP es un software diseñado para facilitar la administración de la logística de transporte, permite simplificar y optimizar los procesos diarios de la empresa de transporte y tener un mayor control de las operaciones de la flotilla. </h4>
-                        <h4 class="pri">Permite conocer los costos y utilidad generada por los viajes realizados y las cartas porte correspondientes a cada viaje sin necesidad de utilizar sistemas externos.</h4>
-                        <h4 class="pri">Además, podrás llevar una agenda de mantenimientos de todos los vehículos y recibir notificaciones para que estos se realicen en tiempo y forma, entre muchas otras cosas más.</h4></div>
+					<div class="col-md-6 df title wow fadeIn text-justify" data-wow-duration="1500ms">
+                    <br>
+                    <h3><span class="color">Titanium ERP</span></h3>
+				<h4 class="pri">es un software diseñado para facilitar la administración de transporte simplificando los procesos diarios de tu empresa, lo que permitirá aumentar la productividad de tu flota y generar mayores ingresos.  Podrás llevar el control de viajes, generación de carta porte, mantenimientos y facturación de una manera simple en un solo sistema.</h4>
+                <a class="btn btn-green animated fadeInUp prueba"  href="#team-skills"><strong>PRUEBA GRATIS</strong></a>
+                      </div> 	 
 					<!-- /section title -->
 					
-                    <div class="col-md-6 title wow fadeIn text-justify" data-wow-duration="1500ms" >
-                    <img src="img/cartaPorter.png" class="img-responsive center-block" alt="carta porter">
+                    <div class="col-md-6 title wow fadeIn text-justify" data-wow-duration="1500ms">
+                    <div  class="embed-responsive embed-responsive-16by9">
+                         <iframe width="854" height="480" src="https://www.youtube.com/embed/IK2y8xBvDfo" allowfullscreen></iframe>
+						</div>
                         </div>
-				</div> 		<!-- End row -->
+				</div> <!-- End row -->
                 
-                <div class="row">
-					
-					<!-- features item -->
-					<div id="features">
-						<div class="item">
-							
-							<div class="features-item"> <br>
-                            
-                    <!-- About item -->					
-					<div class="col-sm-2 col-md-15 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="wrap-about kill-margin-bottom">
-							<div class="icon-box">
-								<i class="fa fa-mobile fa-5x"></i>
-							</div>
-							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-								<h3>Accesibilidad</h3>
-						<p class="tt">Accede desde cualquier dispositivo con conexión a internet desde cualquier navegador sin instalaciones.</p>
-							</div>
-						</div>
-					</div> 
-					<!-- End About item -->        
-                            
-									<!-- About item -->
-					<div class="col-sm-2 col-md-15  text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
-						<div class="wrap-about">
-							<div class="icon-box">
-								<i class="fa fa-desktop fa-4x"></i>
-							</div>
-							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-								<h3>Interfaz</h3>
-							<p class="tt">Interfaz organizada y amigable que hace fácil el uso del sistema y permite al usuario tener una experiencia única en el trabajo. </p>
-							</div>
-						</div>
-					</div> 
-					<!-- End About item -->
-                    
-                    <!-- About item -->
-					<div class="col-sm-2 col-md-15  text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
-						<div class="wrap-about">
-							<div class="icon-box">
-								<i class="fa fa-unlock-alt fa-4x"></i>
-							</div>
-							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-								<h3>Privacidad</h3>
-					<p class="tt">Cada cuenta es de acceso restringido y autentificado, nadie por error tendrá acceso a tu información. </p>
-							</div>
-						</div>
-					</div> 
-					<!-- End About item -->
-                    
-					<!-- About item -->
-					<div class="col-sm-2 col-md-15 text-center wow fadeInUp" data-wow-duration="500ms" >
-						<div class="wrap-about">							
-							<div class="icon-box">
-								<i class="fa fa-check-circle fa-4x"></i>
-							</div>					
-							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-								<h3>Capacitación</h3>								
-								<p class="tt">Capacitaciones completas de Titanium ERP para aprovechar al máximo todos los módulos del sistema.</p>
-							</div>
-						</div>
-					</div> 
-					<!-- End About item -->
-                    
-					
-					<!-- About item -->					
-					<div class="col-sm-2 col-md-15 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="wrap-about kill-margin-bottom">
-							<div class="icon-box">
-								<i class="fa fa-users fa-4x"></i>
-							</div>
-							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-								<h3>Soporte</h3>
-						<p class="tt">Asesoría técnica en todo momento. Técnicos disponibles 24/7 para apoyo en cualquier solicitud.</p>
-							</div>
-						</div>
-					</div> 
-					<!-- End About item -->
-                    
-                    
-                    
-                    
-                                
-							</div>
-						</div>
-				</div> 		<!-- End row -->
-                
-                
+			
 			</div>   	<!-- End container -->
 		</section>   <!-- End section -->
 		
+		
 		<!--
-		Start Main Features
+		Start Modulos Features
 		==================================== -->
 		<section id="main-features">
 			<div class="container">
             
-						<div class="row wow fadeInDown" data-wow-duration="500ms">
+				<div class="row wow fadeInDown"  id="myGroup" data-wow-duration="500ms">
 					<div class="col-lg-12">
 					
 						<!-- section title -->
 						<div class="title text-center">
-							<h2>Administración eficiente<span class="color"> de tu flotilla </span></h2>
+							<h2> Módulos</h2>
 							<div class="border"></div>
 						</div>
 						<!-- /section title -->
-					
-                    <div class="col-xs-10 col-xs-offset-1">
-						<div  class="embed-responsive embed-responsive-16by9">
-                         <iframe width="854" height="480" src="https://www.youtube.com/embed/IK2y8xBvDfo" frameborder="0" allowfullscreen></iframe>
-              		<!--<iframe  src="https://www.youtube.com/embed/JcW2Yp0Hk0w" frameborder="0"  allowfullscreen></iframe>-->
-						</div>
-                    </div>  
-                    
                      
-                    <!-- <div class="col-xs-12 text-center kk" >
-                             <a href="#demo" class="bg-one btn btn-transparent" style="width:30%; margin-top:10;">Solicita tu demo</a>
-							</div> -->
-                    <div class="col-xs-12 text-center kk" >
-                             <a href="mailto:sales@titaniumerp.net?subject=Solicitar Demo Titanium Web&body=INGRESA TU%0A Empresa:%0A Correo:%0A Razón Social:%0A RFC:%0A Contacto:%0A Teléfono:%0A Dirección:%0A Correo:%0A" class="bg-one btn btn-transparent" style="width:50%;">Solicita tu demo</a>
-							</div>         
                         
+                        <div class="row wow fadeInDown" data-wow-duration="500ms">  
+                            <div class="col-md-12 text-center">
+                            	<ul class="list-inline link-effect-9 ModMenu" id="link-effect-9">
+                            	
+                            		<div class="col-sm-2 col-md-15 text-center"><br>
+										<i class="fa fa-bar-chart fa-2x text-center"></i><br>
+										<a data-toggle="collapse" style="z-index: 1; padding-top: 2.5em;"   data-collapse-group="myDivs" data-target="#num1"> Logística</a>
+                              		</div>
+                              		<div class="col-sm-2 col-md-15 text-center"><br> 
+                              			<i class="fa fa-wrench fa-2x text-center"></i><br>
+                               			<a data-toggle="collapse" style="z-index: 1; padding-top: 2.5em;"  data-collapse-group="myDivs" data-target="#num2"> Mantenimiento</a>
+                               		</div>
+                               		<div class="col-sm-2 col-md-15 text-center"><br>
+                               			<i class="fa fa-file-text-o fa-2x text-center"></i><br>
+                               			<a data-toggle="collapse"  style="z-index: 1; padding-top: 2.5em;" data-collapse-group="myDivs" data-target="#num3"> Facturación</a>
+                               		</div>
+                               		<div class="col-sm-2 col-md-15 text-center"><br>
+                               			<i class="fa fa-credit-card-alt fa-2x text-center"></i><br>
+                               			<a data-toggle="collapse"  style="z-index: 1; padding-top: 2.5em;" data-collapse-group="myDivs" data-target="#num4"> Cobranza</a>
+                               		</div>
+                               		<div class="col-sm-2 col-md-15 text-center"><br>
+                               			<i class="fa fa-newspaper-o fa-2x text-center"></i><br>
+                               			<a data-toggle="collapse"  style="z-index: 1; padding-top: 2.5em;" data-collapse-group="myDivs" data-target="#num5"> Reportes</a>
+                               		</div>
+                               		<div class="col-sm-2 col-md-15 text-center"><br>
+                               			<i class="fa fa-cogs fa-2x text-center"></i><br>
+                               			<a data-toggle="collapse"  style="z-index: 1; padding-top: 2.5em;" data-collapse-group="myDivs" data-target="#num6"> Operaciones</a>
+                               		</div>
+                               		<div class="col-sm-2 col-md-15 text-center"><br>
+                               			<i class="fa fa-list-alt fa-2x text-center"></i><br>
+                               			<a data-toggle="collapse"  style="z-index: 1; padding-top: 2.5em;" data-collapse-group="myDivs" data-target="#num7"> Inventario</a>
+                               		</div>
+                               		<div class="col-sm-2 col-md-15 text-center"><br>
+                               			<i class="fa fa-commenting-o fa-2x text-center"></i><br>
+                               			<a data-toggle="collapse"  style="z-index: 1; padding-top: 2.5em;" data-collapse-group="myDivs" data-target="#num8"> Gestoría</a>
+                               		</div>
+                               		<div class="col-sm-2 col-md-15 text-center"><br>
+                               			<i class="fa fa-cog fa-2x text-center"></i><br>
+                               			<a data-toggle="collapse"  style="z-index: 1; padding-top: 2.5em;" data-collapse-group="myDivs" data-target="#num9"> Configuración</a>
+                               		</div>
+                                </ul> 
+                                
+                            </div>  <!--/col-md-12 -->
+                        </div>  <!--/iner row buttton--> <br><br><br> 
                         
-				</ul> <!-- end og grid -->
-			</div>  <!-- portfolio items wrapper -->
-			</div> 
+                       		<div class="row wow fadeInDown parent" data-wow-duration="500ms"> 
+                                                
+                            <div class="col-md-12 col-lg-6 child">
+                            <img src="img/cartaPorter.png" class="center-block img-responsive" alt="Computadoras">
+                            </div>  <!--/col-lg-6 imagen -->
+                            
+                            <div class="col-md-12 col-lg-6 child def">
+                            
+                                  <div class="collapse in" id="num1">
+                                  <h3><i style="color: orange;" class="fa fa-bar-chart"></i> Logística</h3>
+                                  <p class="text-justify">Control y seguimiento de los viajes de las unidades. En el módulo de Logística llevaras un registro de los costos generados por servicio como lo son: Fletes, seguros, servicios de recolección y entrega, sueldo de los operadores, casetas, entre otros más. Además, puedes realizar la carta porte bajo requerimientos del SAT con un solo clic. Con este módulo eliminaras tiempos muertos y evitaras duplicidad de tareas, lo que optimizará las operaciones de tu flotilla y aumentará tus ingresos.</p>
+                                  </div>
+                                  
+                                  <div class="collapse" id="num2">
+                                  <h3><i style="color: orange;" class="fa fa-wrench"></i> Mantenimiento</h3>
+                                  <p class="text-justify">Reduce fallas y aumenta la productividad de tu flotilla. Este módulo te permite llevar una bitácora de mantenimientos preventivos para tus unidades y controlar los costos de cada uno de estos mantenimientos. Estos mantenimientos se agendan por periodo de tiempo o por kilometraje según sus requerimientos. Este módulo te ayudará a mantener tu flotilla en óptimo funcionamiento.</p>
+                                  </div>
+                               
+                                   <div class="collapse" id="num3">
+                                   <h3><i style="color: orange;" class="fa fa-file-text-o"></i> Facturación</h3>
+                                   <p class="text-justify">Opera bajo requerimientos del SAT, timbrado y emisión de facturas de manera ágil para una administración eficiente de tu empresa de transporte. Puedes emitir facturas globales por cliente o por viaje realizado. El software permite trabajar con cuentas multi RFC, esto diseñado para aquellas empresas que manejan diferentes razones sociales o sucursales.</p>
+                                  </div>
+                                  
+                                  <div class="collapse" id="num4">
+                                   <h3><i style="color: orange;" class="fa fa-credit-card-alt"></i> Cobranza</h3>
+                                   <p class="text-justify">Lleva el control de los ingresos y egresos que generan las operaciones logísticas de las unidades. En este módulo podrás generar cotizaciones para tus clientes y llevar el control de las cuentas por cobrar, las cuales se pueden administrar con pagos a contado o a crédito. El reporte de cobranza te brindará una visión más detallada sobre las entradas de efectivo a la empresa en periodos determinados.</p>
+                                  </div>
+                                  
+                                  <div class="collapse" id="num5">
+                                   <h3><i style="color: orange;" class="fa fa-newspaper-o"></i> Reportes</h3>
+                                   <p class="text-justify">Módulo que permite generar reportes detallados sobre la información más relevante de tu empresa de transporte.Podrás consultar el estatus de los viajes registrados, Costos desglosados generados por cada servicio, Reportes de facturación, entre otros más y podrás agregar otros tipos de reportes según tus necesidades.</p>
+                                  </div>
+                                  
+                                  <div class="collapse" id="num6">
+                                   <h3><i style="color: orange;" class="fa fa-cogs"></i> Operaciones</h3>
+                                   <p class="text-justify">Podrás gestionar los arrendamientos de unidades o equipo especial, ya sea interno o externo. Provee el control de costos y periodos de arrendamientos de las unidades, permitiendo conocer los egresos o ingresos que generará este movimiento a la empresa.</p>
+                                  </div>
+                                  
+                                  <div class="collapse" id="num7">
+                                   <h3><i style="color: orange;" class="fa fa-list-alt"></i> Inventario</h3>
+                                   <p class="text-justify">Controla el inventario de los neumáticos, los puedes clasificar por estatus, fechas de compra, tiempo de vida y las puedes asignar a los vehículos correspondientes, así siempre sabrás en donde están instalados y cuando hay que reemplazarlas para evitar accidentes.</p>
+                                  </div>
+                                  
+                                  <div class="collapse" id="num8">
+                                   <h3><i style="color: orange;" class="fa fa-commenting-o"></i> Gestoría</h3>
+                                   <p class="text-justify">Controla y programa la gestión de todos los tramites de la empresa, vehículos y personal para evitar multas por retardos o por falta de renovación. Así como el registro de quejas por parte de los clientes o por operadores, y poder tomar decisiones efectivas para la mejoría en el servicio.</p>
+                                  </div>
+                                  
+                                  <div class="collapse" id="num9">
+                                   <h3><i style="color: orange;" class="fa fa-cog"></i> Configuración</h3>
+                                   <p class="text-justify">Permite al administrador crear usuarios con diferentes perfiles para el personal de la empresa, tú decides los permisos que otorgaras a cada usuario según sus actividades. Además, podrás personalizar los folios y los formatos de los documentos generados en el sistema y configurar notificaciones enviadas a correos electrónicos establecidos por ti.</p>
+                                  </div>
+                              
+                            </div> <!--/col-md-12 col-lg-6 textos-->
+                        </div>  <!--/iner row textos-->
+                    
+                        
+					</div>  <!--/col-lg-12 -->
+			</div>  <!--/row wow fadeInDown -->
+           
+           <div class="row wow fadeInDown" data-wow-duration="500ms"> 
+           		<div class="col-md-12 text-center">
+                    <a class="btn btn-green animated fadeInUp prueba"  href="precios.html" style="width: 30%; margin-top: 20px;"><strong>Planes y precios</strong></a>
+           		</div> 
+           </div> 
             
 			</div>   	<!-- End container -->
 		</section>   <!-- End section -->
 		
-	
-		 <style> 
-    .prox{
-		color:orange;
-		font-family:font-family: 'Lato', sans-serif;
-		font-size:20px;
-		margin-bottom:21px;}
-	
-		
-                    </style> 
-		
-		<!-- Start Services Section
-		==================================== -->
-		
-		<section id="services" class="bg-one">
-			<div class="container">
-				<div class="row">
-					
-					<!-- section title -->
-					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-						<h2> <span class="color">Módulos</span></h2>
-						<div class="border"></div>
-					</div>
-					<!-- /section title -->
-					
-                    <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-							 <i class="fa fa-book fa-4x"></i>
-							</div>
-							<h3 >Catálogos </h3>
-                            <div class="text-justify">
-							<p >Alta y configuración de todos los recursos logísticos con los que trabajara el sistema.</p><br><br>
-						</div></div>
-					</article>
-                    <!-- End Single Service Item -->
-                    
-                     <!-- Single Service Item -->
-					<article class="col-md-3 col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-							<i class="fa fa-cogs fa-4x"></i>
-							</div>
-							<h3>Operaciones</h3>
-							<div class="text-justify">
-							<p >Módulo para gestionar los arrendamientos de unidades, provee el control de los costos y días de arrendamiento. </p><br>
-						</div></div>
-					</article>
-                    <!-- End Single Service Item -->
-                    
-                     <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-							<i class="fa fa-list-alt fa-4x"></i>
-							</div>
-							<h3>Inventario</h3>
-							<div class="text-justify">
-                            <p >Control de inventario de llantas, así como la asignación de las mismas a los vehículos correspondientes.</p><br><br>
-						</div></div>
-					</article>
-                    <!-- End Single Service Item -->
-                    
-                    <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa fa-bar-chart fa-4x"></i>
-							</div>
-							<h3>Logística</h3>
-                            <div class="text-justify">
-							<p>Creación de viajes o servicios y generación de carta porte correspondiente a cada viaje.</p><br><br>
-						</div></div>
-					</article>
-                    <!-- End Single Service Item -->
-                    
-                    <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa fa-wrench fa-4x"></i>
-							</div>
-							<h3>Mantenimiento</h3>
-							<div class="text-justify">
-							<p>Programación y agenda de mantenimientos de las unidades de la flotilla.</p><br>
-                            <br><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-					
-					<!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa fa-file-text-o fa-4x"></i>
-							</div>
-							<h3>Facturación</h3>
-                            <div class="text-justify">
-							<p>Opera bajo los requerimientos del SAT, timbrado y emisión de las facturas de manera ágil para una administración eficiente.</p><br><br>
-						</div></div>
-					</article>	
-					<!-- End Single Service Item -->
-                    
-                   
-                    
-                    <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa fa-newspaper-o fa-4x"></i>
-							</div>
-							<h3>Reportes</h3>
-                            <div class="text-justify">
-							<p>Módulo para generar reportes sobre el estatus de los viajes y disponibilidad de unidades en el momento que lo necesites.</p> <br><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-					
-					<!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa fa-commenting-o fa-4x"></i>
-							</div>
-							<h3>Gestoría</h3>
-                            <div class="text-justify">
-							<p>Permite llevar un control de trámites de la empresa, así como de las quejas por parte de clientes como de personal de la empresa.</p><br><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-                    
-                     <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa fa-credit-card-alt fa-4x"></i>
-							</div>
-							<h3>Cobranza</h3>
-                            <div class="text-justify">
-							<p>Lleva el control contable, ingresos y egresos que generan las operaciones logísticas de las unidades, viajes pagados y estado de cuenta de la empresa.</p><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-					
-				   <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa fa-cog fa-4x"></i>
-							</div>
-							<h3>Configuración</h3>
-                            <div class="text-justify">
-							<p>Alta y configuración de folios y formatos para los documentos generados, así como asignación de correos electrónicos para notificaciones.</p><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-                  
-                    
-                      <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa-university"></i>
-							</div>
-							<h3>Localización</h3>
-                            <div class="text-justify">
-                            <br><br>
-							<p class="prox text-center">próximamente</p><br><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-                    
-                      <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa-heart"></i>
-							</div>
-							<h3>Administración empresarial</h3>
-                            <div class="text-justify">
-                            <br><br>
-							<p class="prox text-center" style="margin-bottom:17px;">próximamente</p><br><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-                    
-                     <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa-flask"></i>
-							</div>
-							<h3>Contabilidad</h3>
-                            <div class="text-justify">
-                            <br><br>
-							<p class="prox text-center">próximamente</p><br><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-                    
-                     <!-- Single Service Item -->
-					<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="service-block text-center">
-							<div class="service-icon text-center">
-								<i class="fa-search "></i>
-							</div>
-							<h3>Compras</h3>
-                            <div class="text-justify">
-                            <br><br>
-							<p class="prox text-center">próximamente</p><br><br>
-						</div></div>
-					</article>
-					<!-- End Single Service Item -->
-                    
-             <div class="col-xs-12 text-center kk" >
-             <br>
-                             <a href="precios.html" class="bg-one btn btn-transparent" style="width:50%;">Planes y Precios </a>
-							</div> 
-                    
-                    	
-                    
-                    
-                    	
-						
-				</div> 		<!-- End row -->
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
+       
         
-        
-        
-        
-        <!-- CLIENTES
+        <!-- Start Demo Section
 		=========================================== -->
 		<section id="team-skills" class="parallax-section">
 			<div class="container">
 				<div class="row wow fadeInDown" data-wow-duration="500ms">
                 
 				<div class="sub-title text-center wow fadeInDown" data-wow-duration="500ms">
-							<h3>Clientes y Distribuidores</h3>
-						</div>
+							<h2>Toma el control de tu empresa de transporte hoy mismo</h2>
+				</div>
+                    
+					<!-- skill set -->
+					<div class="col-md-12 wow fadeInUp text-center" data-wow-duration="500ms">
+						<h3 style="font-size: 2em;">Obtén tu <span class="color">PRUEBA GRATIS</span> por <span class="color">30 días</span></h3>
+						<h3 style="font-size: 2em; margin-top: 0;"> y comprueba todos los beneficios de Titanium ERP.</h3>
+					</div>
+					<div class="col-md-12 wow fadeInUp text-center" data-wow-duration="500ms">
+						<a class="btn btn-green animated fadeInUp prueba"  href="mailto:sales@titaniumerp.net?subject=Solicitar Demo Titanium Web&body=INGRESA TU%0AEmpresa:%0ACorreo:%0ARazón Social:%0ARFC:%0AContacto:%0ATeléfono:%0ADirección:%0ACorreo:%0A" style="width: 30%; margin-top: 20px;"><strong>Obtener prueba gratuita</strong></a>
+					</div>
+					<!-- end skill set -->
 					
-					<br>
+				</div>  <!-- End row -->
+			</div>   	<!-- End container --><br>
+		</section>   <!-- End section -->
+        
+        
+      
+        
+        <!--
+		Start TitaniumERP - Transporte Section
+		==================================== -->
+		<section id="demo" class="bg-one">
+			<div class="container">
+				<div class="row">
+				
+					<!-- section title <span class="color"></span>-->
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+						<h2>¿Por qué Titanium ERP es el mejor software para Transporte ?</h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+                   
+                    <div class="row wow fadeInDown" data-wow-duration="500ms">  
+                            <div class="col-md-12">
+                           		
+                            		<div class="col-md-4">
+										<div class="BoxComp">
+											<i class="colorOrange fa fa-hand-o-up fa-2x"></i>
+											<h3 class="" style="display: inline;">&nbsp; Fácil acceso:</h3>
+											<p class="text-justify">Puedes acceder al sistema desde cualquier dispositivo con conexión a internet, smartphone o Tablet ¡Sin instalaciones!</p>
+										</div>
+                              		</div>
+                              		<div class="col-md-4">
+										<div class="BoxComp">
+											<i class="colorOrange fa fa-desktop fa-2x"></i>
+											<h3 class="" style="display: inline;">&nbsp; Amigable:</h3>
+											<p class="text-justify">Interfaz organizada e intuitiva que facilita el uso del sistema y permite al usuario obtener una experiencia única en el trabajo.</p>
+										</div>
+                              		</div>
+                              		<div class="col-md-4">
+										<div class="BoxComp">
+											<i class="colorOrange fa fa fa-lock fa-2x"></i>
+											<h3 class="" style="display: inline;">&nbsp; Seguro:</h3>
+											<p class="text-justify">Cada cuenta es de acceso restringido y autentificado, nadie por error tendrá acceso a tu información. </p>
+										</div>
+                              		</div>
+                              		<div class="col-md-4">
+										<div class="BoxComp">
+											<i class="colorOrange fa fa-comments-o fa-2x"></i>
+											<h3 class="" style="display: inline;">&nbsp; Capacitación:</h3>
+											<p class="text-justify">Te brindamos capacitaciones completas del sistema para que puedas aprovechar al máximo todas las funciones disponibles.</p>
+										</div>
+                              		</div>
+                              		<div class="col-md-4">
+										<div class="BoxComp">
+											<i class="colorOrange fa fa-users fa-2x"></i>
+											<h3 class="" style="display: inline;">&nbsp; Soporte técnico:</h3>
+											<p class="text-justify">Asesoría técnica en todo momento, técnicos disponibles 24/7 para apoyarte en cualquier solicitud o duda. </p>
+										</div>
+                              		</div>
+                              		<div class="col-md-4">
+										<div class="BoxComp">
+											<i class="colorOrange fa fa fa-refresh fa-2x"></i>
+											<h3 class="" style="display: inline;">&nbsp; Actualizaciones:</h3>
+											<p class="text-justify">Mejoras constantes al sistema y nos mantenemos al día con los requerimientos del SAT para ayudarte a optimizar aún más tu operación.</p>
+										</div>
+                              		</div>
+                              		
+                              		
+                              		
+                            </div>  <!--/col-md-12 -->
+                        </div>  <!--/iner row buttton-->
+                    
+                    
+                   
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+       
+       
+       
+       	<!--
+		Start Updates Features
+		==================================== -->
+		<section id="update">
+			<div class="container">
+            
+				<div class="row wow fadeInDown" data-wow-duration="500ms">
+					<div class="col-lg-12">
+						<!-- section title -->
+						<div class="title text-center">
+							<h2 class="tituloTop">Actualizaciones</h2>
+							<div class="border"></div>
+							<h3>En constante innovación para brindarte el mejor servicio ¡Espera los nuevos módulos próximamente!</h3>
+						</div>
+						<!-- /section title -->
+                    </div>   
+                </div>
+                
+               
+                <div class="row wow fadeInDown"  data-wow-duration="500ms"> 
+                	
+                	<!-- 2 modulos Der-->
+					<div class="col-md-4 text-center">
+						<div class="abajoIcon">
+							<span class="color"><i class="fa fa-map-marker fa-4x"></i></span><br>
+							<p class="IconIpad">Localización GPS</p>				
+						</div>
+						<div class="abajoIcon">
+							<span class="color"><i class="fa fa-calculator fa-4x"></i></span><br>
+							<p class="IconIpad">Contabilidad</p>
+						</div>
+                    </div> <!-- /2 modulos Der--> 
+                
+               		 <!-- Img tablet --> 
+					<div class="col-md-4">
+						<img src="img/tablet.png"  class="img-responsive center-block" alt="Titanium en tablet">
+                    </div><!-- /Img tablet -->     
+                    
+                    <!-- 2 modulos Izq -->
+					<div class="col-md-4 text-center">
+						<div class="abajoIcon2">
+							<span class="color"><i class="fa fa-line-chart fa-4x"></i></span><br>
+							<p class="IconIpad">Admón. Empresarial</p>
+						</div>
+						<div class="abajoIcon2">
+							<span class="color"><i class="fa fa-shopping-basket fa-4x"></i></span><br>
+							<p class="IconIpad">Compras</p>
+						</div>
+                    </div> <!-- /2 modulos Izq --> 
+                    
+                    
+                </div>   <!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+        
+        
+        <!-- Start Customer Section
+		=========================================== -->
+		
+		<section id="twitter-feed" class="parallax-section">
+			<div class="container">
+				<div class="row wow fadeInDown" data-wow-duration="500ms">
+                
+				<div class="sub-title text-center wow fadeInDown" data-wow-duration="500ms">
+							<h2>Clientes y Distribuidores</h2>
+				</div><br>
+                    
 					<!-- skill set -->
 					<div class="col-md-3 col-md-offset-3  col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
 						<div class="skill-chart text-center">
@@ -658,7 +564,6 @@ input[type=number] {
 						</div>
 					</div>
 					<!-- end skill set -->
-					
 					<!-- skill set  -->
 					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
 						<div class="skill-chart text-center">
@@ -668,153 +573,85 @@ input[type=number] {
 					<!-- end skill set -->
 					
 					
-				</div>  		<!-- End row-->
+				</div>  <!-- End row -->
 			</div>   	<!-- End container -->
 		</section>   <!-- End section -->
-        
-        
 		
-		
-		<!-- Start Portfolio Section
-		===========================================
-		
-		<section id="showcase">
-			<div class="container">
-            
-				<div class="row wow fadeInDown" data-wow-duration="500ms">
-					<div class="col-lg-12">
-					
-						
-						<div class="title text-center">
-							<h2>Video <span class="color"> Titanium</span></h2>
-							<div class="border"></div>
-						</div>
-						
-					
-						<div  class="embed-responsive embed-responsive-16by9">
-              <iframe width="854" height="480" src="https://www.youtube.com/embed/JcW2Yp0Hk0w" frameborder="0"  allowfullscreen></iframe>
-						</div>
-                        
-                        
-				</ul> 
-			</div>  
-			</div> 
-            
-		</section>   <!-- End section -->
-        
-         <style>
-						 .kk input{
-							 width:30%;
-							 margin-bottom:10px;}
-							 
-						.sendcont input{
-							 width:100%;
-							 margin-bottom:10px;}	 
-							 
-						 .kk2 input{
-							 margin-bottom:15px;}
-						
-						input[type='submit'] {
-    background-image: url(img/send.png);
-	/*content:"\f008";*/
-    background-position: 7px 12px;
-    background-repeat: no-repeat;
-}
-						
-                         </style> 
-                         
-        <!--
-		Start About Section
-		==================================== -->
-		<section id="demo" class="bg-one">
+   		
+   		<style>
+			.btnDis{
+				margin-bottom: 7%;
+			}
+			
+			.textDist{
+				font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+			}
+			
+			.textDist_1{
+				font-size: 2.3em; 
+			}
+			.textDist_2{
+				font-size: 1.7em;
+			}
+		</style>
+   		
+   		<!--	
+		Start Distribuidor Section
+		====================================  -->
+		<section id="distribuidor" class="bg-one">
 			<div class="container">
 				<div class="row">
 				
-					<!-- section title -->
-					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-						<h2>Solicita tu<span class="color">  Demo</span></h2>
-						<div class="border"></div>
-                        <h3>Prueba GRATIS por 1 mes</h3>
-					</div>
-					<!-- /section title -->
+					<!-- section title -->	
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms">	
+						<h2>Conviértete en distribuidor</h2>	
+						<div class="border"></div>	
+					</div>	
+					<!-- /section title -->	
+                  
+                    <div class="row wow fadeInDown" data-wow-duration="500ms"> 
+           				<div class="col-md-10 col-md-offset-1 text-center">	
+							<div class="textDist">
+								<h3 class="textDist_1"><span class="color">¿</span>Te gustan las ventas, tienes una empresa de rastreo gps o simplemente quieres emprender un negocio propio<span class="color">?</span></h3>
+								<p class="textDist_2">Únete a nuestra red de distribuidores y obtén <span class="color">atractivas ganancias sin inversión inicial.</span></p>
+							</div> 
+		   				</div>
+			   		</div> 
+                   
+                    <div class="row wow fadeInDown" data-wow-duration="500ms"> 
+           				<div class="col-md-12 text-center">	
+                    		<a class="btn btn-green animated fadeInUp btnDis"  href="Distribuidor.html" style="width: 30%; margin-top: 20px;"><strong>Quiero ser distribuidor</strong></a>	
+						</div> 
+			   		</div> 
                     
                     
-                    <!-- section title -->
-					<div class="contact-form2 col-md-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                    
-                    <!--	<form id="contact-form" method="POST" action="sendemo.php" role="form">   
-                                
-                            <div class="kk2 col-md-6">
-								<input type="text" placeholder="Empresa" class="form-control" name="empresa" id="empresa" required>
-							</div>
-							
-							<div class="kk2 col-md-6">
-								<input type="text" placeholder="Razón Social" class="form-control" name="razon" id="razon" required>
-							</div>
-							
-							<div class="kk2 col-md-6">
-								<input type="text" placeholder="RFC" class="form-control" name="rfc" id="rfc" required>
-							</div>
-							
-							<div class="kk2 col-md-6">
-								<input type="text" placeholder="Contacto" class="form-control" name="cont" id="cont" required>
-							</div> 
-                            <div class="kk2 col-md-6">
-								<input type="number" placeholder="Teléfono" class="form-control" name="tel" id="tel" required>
-							</div> 
-                            <div class="kk2 col-md-6 text-center">
-								<input type="text" placeholder="Dirección" class="form-control" name="direc" id="direc" required>
-							</div> 
-                            <div class="kk2 col-md-6 col-md-offset-3">
-								<input type="email" placeholder="Correo electrónico" class="form-control" name="mail" id="mail" required>
-							</div> 
-                             
-					
-                   			 <div class="col-xs-12 text-center kk" >
-                             
-                              <input type="submit"  id="but" class="bg-one btn btn-transparent"  value="Enviar Solicitud" >
-							</div>
-                          
-						</form>	--> 
-                        
-                           <div class="col-xs-12 text-center kk" >
-                             <a href="mailto:sales@titaniumerp.net?subject=Solicitar Demo Titanium Web&body=INGRESA TU%0A Empresa:%0A Correo:%0A Razón Social:%0A RFC:%0A Contacto:%0A Teléfono:%0A Dirección:%0A Correo:%0A" class="bg-one btn btn-transparent" style="width:50%;">Enviar Mensaje</a>
-							</div> 
-                        
-                   </div>
-					
+                   
 				</div> 		<!-- End row -->
 			</div>   	<!-- End container -->
 		</section>   <!-- End section -->
-		
        
+   		
 		
 		
-		
+		<!--		Start Comments Section
+		====================================================
 		<section id="testimonial" class="parallax-section">
 			<div class="container">
 				<div class="row">				
 					<div class="col-lg-12">
 					
-						<!-- section title -->
 						<div class="sub-title text-center wow fadeInDown" data-wow-duration="500ms">
 							<h3>LO QUE DICEN DE NOSOTROS!</h3>
 						</div>
-						<!-- /section title -->
-
-						<!-- testimonial wrapper -->
+						
 						<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
 						
-							<!-- testimonial single -->
 							<div class="item text-center">
-								
-								<!-- client photo -->
 								<div class="client-thumb">
 									<img src="img/global.png" class="img-responsive" alt="titanium">
 								</div>
-								<!-- /client photo -->
 								
-								<!-- client info -->
+								
 								<div class="client-info">
 									<div class="client-meta">
 										<h3>G-global</h3>
@@ -822,27 +659,17 @@ input[type=number] {
 									</div>
 									<div class="client-comment">
 										<p>Una plataforma muy  segura, completa y muy fácil de usar. Cuenta con un soporte de alta calidad las 24 hrs del día.</p>
-										<!--<ul class="social-profile">
-											<li><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-										</ul>-->
 									</div>
 								</div>
-								<!-- /client info -->
 							</div>
-							<!-- /testimonial single -->
+							
 						
-							<!-- testimonial single -->
 							<div class="item text-center">
-								
-								<!-- client photo -->
 								<div class="client-thumb2">
 									<img src="img/cliente2.png" class="img-responsive center-block" alt="titanium">
 								</div>
-								<!-- /client photo -->
 								
-								<!-- client info -->
+								
 								<div class="client-info">
 									<div class="client-meta">
 										<h3>Loc-Jack</h3>
@@ -850,24 +677,19 @@ input[type=number] {
 									</div>
 									<div class="client-comment">
 										<p> </p>
-										<!--<ul class="social-profile">
-											<li><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-										</ul>-->
 									</div>
 								</div>
-								<!-- /client info -->
+								
 							</div>
-							<!-- /testimonial single -->
+							
 						
 							
-							
-						</div>		<!-- end testimonial wrapper -->
-					</div> 		<!-- end col lg 12 -->
-				</div>	    <!-- End row -->
-			</div>       <!-- End container -->
-		</section>    <!-- End Section -->
+						</div>		
+					</div> 		
+				</div>	    
+			</div>       
+		</section>     
+						End Section -->
 		
 		
 		
@@ -880,7 +702,7 @@ input[type=number] {
 					
 					<!-- section title -->
 					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-						<h2>Déjanos un <span class="color">Mensaje</span></h2>
+						<h2>Déjanos unMensaje</h2>
 						<div class="border"></div>
 					</div>
 					<!-- /section title -->
@@ -909,75 +731,28 @@ input[type=number] {
                                 <span>MEX | +52 (664) 623-8651</span>
 							</div>
 							
-							<!--<div class="con-info clearfix">
-								<i class="fa fa-fax fa-lg"></i>
-								<span>Fax: +880-31-000-000</span>
-							</div>-->
-							
 							<div class="con-info clearfix">
 								<i class="fa fa-envelope fa-lg"></i>
 								<span>Email: <a href="mailto:info@titaniumerp.net ">info@titaniumerp.net</a></span>
 							</div>
 						</div>
 					</div>
-					<!-- / End Contact Details -->
-						
-					<!-- Contact Form -->
-					<div class="contact-form2 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                    
-					<!--	<form id="contact-form" method="POST" action="sendmail.php" role="form">   
-                                
-                            <div class="kk2">
-                           	    <input type="text" placeholder="Nombre" class="form-control" name="name" id="name" required>
-							</div>
-							
-							<div class="kk2">
-								<input type="email" placeholder="Correo" class="form-control" name="email" id="email" required>
-							</div>
-							
-							<div class="kk2">
-								<input type="text" placeholder="Asunto" class="form-control" name="subject" id="subject" required>
-							</div>
-							
-							<div class="kk2">
-								<textarea rows="6" placeholder="Mensaje" class="form-control" name="message" id="message" required></textarea>
-							</div> 
-                            <div class="kk2">
-								<select class="bg-one btn btn-transparent" name="ent" id="ent" placeholder="¿Como se enteró de nosotros?">
-                                          <option value="" disabled selected>¿Como se enteró de nosotros?</option>
-                                          <option value="Busqueda en Internet">Busqueda en Internet</option>
-                                          <option value="Publicidad">Publicidad</option>
-                                          <option value="Referido">Referido</option>
-                                        </select>
-							</div> 
-                           
-                             
-					
-                   			 <div class="text-center sendcont" >
-                              <input type="submit"  id="but" class="bg-one btn btn-transparent"  value="Enviar Solicitud" >
-							</div>
-                          
-						</form>	-->
+					<!-- / End Contact Details 	-->
                      
                   
                             
-                              <div class="col-xs-12 text-center kk" >
-             <br> <br> <br><br>
-                             <a href="mailto:info@titaniumerp.net?subject=Contacto Titanium Web&body=INGRESA TU%0A Nombre:%0A Correo:%0A Asunto:%0A Mensaje:%0A Como se entero de Nosotros?:%0A" class="bg-one btn btn-transparent" style="width:50%;">Enviar Mensaje</a>
+                              <div class="col-xs-12 col-md-6 text-center kk" >
+            						 <br> <br> <br><br>
+                             <a href="mailto:info@titaniumerp.net?subject=Contacto Titanium Web&body=INGRESA TU%0ANombre:%0ACorreo:%0AAsunto:%0AMensaje:%0AComo se entero de Nosotros?:%0A" class="bg-one btn btn-transparent" style="width:50%;">Enviar Mensaje</a>
+                             
 							</div> 
 							
-                            
-					</div>
-					<!-- ./End Contact Form -->
+        
 				
 				</div> <!-- end row -->
 			</div> <!-- end container -->
 			
-			<!-- Google Map -->
-			<div class="google-map wow fadeInDown" data-wow-duration="500ms">
-				<!--<div id="map-canvas"></div>-->
-			</div>	
-			<!-- /Google Map -->
+			
 			
 		</section> <!-- end section -->
 		
@@ -995,7 +770,7 @@ input[type=number] {
 								<li><a href="https://www.facebook.com/Titanium-ERP-775254112577941/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="https://twitter.com/TitaniumERP" target="_blank" ><i class="fa fa-twitter"></i></a></li>
 								<li><a href="https://www.youtube.com/channel/UClw8eORlXYNwf6Y8e23E89g" target="_blank" > <i class="fa fa-youtube"></i></a></li>
-								<!--<li><a href="https://www.linkedin.com/in/prossea?authType=name&authToken=Hd2d&invAcpt=337455016_I6123924792321069056_500&csrfToken=ajax%3A0225792071747669318&trk=nav_utilities_invites_photo" target="_blank" ><i class="fa fa-linkedin"></i></a></li>-->
+								<!--<li class="redes"> <a href="https://www.linkedin.com/company-beta/2987864/" target="_blank"><i class="fa fa-linkedin"></i></a></li>-->
 							</ul>
 						</div>
 						<!--/. End Footer Social Links -->
@@ -1005,8 +780,6 @@ input[type=number] {
 							<a href="index.html">
 								<img src="img/logo-tita.png" alt="titanium" /> 
 							</a>
-							<br />
-							
 							<p>Creado por <a href="http://www.prossea.com"> PROSSEA</a>. Copyright &copy; 2016. Todos los derechos reservados.</p>
                             <p> <a href="TerminosEsp.html">Términos y Condiciones</a> | <a href="#"> Política de Privacidad</a> | Número de registro: 03-2016-072711263700-01</p>
 						</div>
@@ -1028,12 +801,21 @@ input[type=number] {
 		
 		<!-- 
 		Essential Scripts
-		=====================================-->
+		===================================== -->
 		
-		
-        <!-- Main jQuery 
-		<script src="js/jquery-1.12.2.min.js"></script> -->
+        <!-- Main jQuery -->
+		<script src="js/jquery-1.12.2.min.js"></script>
         
+         <!-- Collapse-->
+        <script type="text/javascript">
+			$("[data-collapse-group='myDivs']").click(function () {
+				var $this = $(this);
+				$("[data-collapse-group='myDivs']:not([data-target='" + $this.data("target") + "'])").each(function () {
+					$($(this).data("target")).removeClass("in").addClass('collapse');
+				});
+			});
+		</script>
+
         <!-- Menu -->
         <script src="js/menuscript.js"></script>
         
@@ -1041,6 +823,7 @@ input[type=number] {
 		<script src="js/bootstrap.min.js"></script>
 		<!-- Slitslider -->
 		<script src="js/jquery.slitslider.js"></script>
+        
 		<script src="js/jquery.ba-cond.min.js"></script>
 		<!-- Parallax -->
 		<script src="js/jquery.parallax-1.1.3.js"></script>
@@ -1064,8 +847,6 @@ input[type=number] {
 		<script src="js/jquery.nav.js"></script>
 		<!-- Sticky Nav -->
 		<script src="js/jquery.sticky.js"></script>
-		<!-- Number Counter Script -->
-		<script src="js/jquery.countTo.js"></script>
 		<!-- wow.min Script -->
 		<script src="js/wow.min.js"></script>
 		<!-- For video responsive -->
@@ -1076,213 +857,13 @@ input[type=number] {
 		<script src="js/custom.js"></script>
         <!-- chat -->
         <script type="text/javascript">
-var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";
-s.defer=true;s.src="https://salesiq.zoho.com/titanium/float.ls?embedname=titanium";
-t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
-</script>
-
-		<!-- fancybox -->
-        <script type="text/javascript" src="css/source/jquery.fancybox.js?v=2.1.5"></script>
-		<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-			 *  Simple image gallery. Uses default settings
-			 */
-
-			$('.fancybox').fancybox();
-
-			/*
-			 *  Different effects
-			 */
-
-			// Change title type, overlay closing speed
-			$(".fancybox-effects-a").fancybox({
-				helpers: {
-					title : {
-						type : 'outside'
-					},
-					overlay : {
-						speedOut : 0
-					}
-				}
-			});
-
-			// Disable opening and closing animations, change title type
-			$(".fancybox-effects-b").fancybox({
-				openEffect  : 'none',
-				closeEffect	: 'none',
-
-				helpers : {
-					title : {
-						type : 'over'
-					}
-				}
-			});
-
-			// Set custom style, close if clicked, change title type and overlay color
-			$(".fancybox-effects-c").fancybox({
-				wrapCSS    : 'fancybox-custom',
-				closeClick : true,
-
-				openEffect : 'none',
-
-				helpers : {
-					title : {
-						type : 'inside'
-					},
-					overlay : {
-						css : {
-							'background' : 'rgba(238,238,238,0.85)'
-						}
-					}
-				}
-			});
-
-			// Remove padding, set opening and closing animations, close if clicked and disable overlay
-			$(".fancybox-effects-d").fancybox({
-				padding: 0,
-
-				openEffect : 'elastic',
-				openSpeed  : 150,
-
-				closeEffect : 'elastic',
-				closeSpeed  : 150,
-
-				closeClick : true,
-
-				helpers : {
-					overlay : null
-				}
-			});
-
-			/*
-			 *  Button helper. Disable animations, hide close button, change title type and content
-			 */
-
-			$('.fancybox-buttons').fancybox({
-				openEffect  : 'none',
-				closeEffect : 'none',
-
-				prevEffect : 'none',
-				nextEffect : 'none',
-
-				closeBtn  : false,
-
-				helpers : {
-					title : {
-						type : 'inside'
-					},
-					buttons	: {}
-				},
-
-				afterLoad : function() {
-					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
-				}
-			});
-
-
-			/*
-			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
-			 */
-
-			$('.fancybox-thumbs').fancybox({
-				prevEffect : 'none',
-				nextEffect : 'none',
-
-				closeBtn  : false,
-				arrows    : false,
-				nextClick : true,
-
-				helpers : {
-					thumbs : {
-						width  : 50,
-						height : 50
-					}
-				}
-			});
-			
-			/*
-			 *  QUITAR LO BLANCO DE CONTORNO
-			*/
-			
-			$(".fancybox")
-    .attr('rel', 'gallery')
-    .fancybox({
-         openEffect  : 'none',
-        closeEffect : 'none',
-        nextEffect  : 'none',
-        prevEffect  : 'none',
-        padding     : 0,
-        margin      : [20, 60, 20, 60] // Increase left/right margin
-    });
-
-			/*
-			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
-			*/
-			$('.fancybox-media')
-				.attr('rel', 'media-gallery')
-				.fancybox({
-					openEffect : 'none',
-					closeEffect : 'none',
-					prevEffect : 'none',
-					nextEffect : 'none',
-
-					arrows : false,
-					helpers : {
-						media : {},
-						buttons : {}
-					}
-				});
-
-			/*
-			 *  Open manually
-			 */
-
-			$("#fancybox-manual-a").click(function() {
-				$.fancybox.open('1_b.jpg');
-			});
-
-			$("#fancybox-manual-b").click(function() {
-				$.fancybox.open({
-					href : 'iframe.html',
-					type : 'iframe',
-					padding : 5
-				});
-			});
-
-			$("#fancybox-manual-c").click(function() {
-				$.fancybox.open([
-					{
-						href : '1_b.jpg',
-						title : 'My title'
-					}, {
-						href : '2_b.jpg',
-						title : '2nd title'
-					}, {
-						href : '3_b.jpg'
-					}
-				], {
-					helpers : {
-						thumbs : {
-							width: 75,
-							height: 50
-						}
-					}
-				});
-			});
-
-
-		});
-	</script>
-        
-    
-
-
-
-  
-        
-        
-    
+		var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";
+		s.defer=true;s.src="https://salesiq.zoho.com/titanium/float.ls?embedname=titanium";
+		t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
+		</script>
+		
+       
+	
 
     </body>
 </html>

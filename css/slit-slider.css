@@ -146,8 +146,8 @@
 	top: 50%;
 	width: 40px;
 	height: 40px;
-	border: 8px solid #ddd;
-	border: 8px solid rgba(150,150,150,0.4);
+	border: 8px solid #ff7c1c;
+	border: 8px solid rgba(170,170,170,.9);
 	text-indent: -90000px;
 	margin-top: -40px;
 	cursor: pointer;
@@ -160,7 +160,8 @@
 }
 
 .nav-arrows span:hover {
-	border-color: rgba(150,150,150,0.9);
+	border: 8px solid #6CB670;
+	/*border-color: rgba(150,150,150,0.9);*/
 }
 
 .nav-arrows span.nav-arrow-prev {
@@ -241,6 +242,13 @@
 #home .bg-img-1 {
 	background-image: url(../img/fondo/1.jpg);
 }
+#home .bg-img-5 {
+	background-image: url(../img/fondo/2.jpg);
+}
+#home .bg-img-6 {
+	background-image: url(../img/fondo/3.jpg);
+}
+
 #home .bg-img-2 {
 	background-image: url(../img/fondo/Contacto.jpg);
 }

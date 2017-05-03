@@ -18,9 +18,9 @@
 	*
 	* latest version and complete README available on Github:
 	* https://github.com/louisremi/jquery-smartresize/blob/master/jquery.debouncedresize.js
-	*
+	* de irse 
 	* Copyright 2011 @louis_remi
-	* Licensed under the MIT license.
+	* Licensed under the MIT license.d
 	*/
 	var $event = $.event,
 	$special,
@@ -68,7 +68,7 @@
 
 	$.Slitslider.defaults = {
 		// transitions speed
-		speed : 800,
+		speed : 500,
 		// if true the item's slices will also animate the opacity value
 		optOpacity : false,
 		// amount (%) to translate both slices - adjust as necessary
@@ -78,11 +78,11 @@
 		// maximum possible scale
 		maxScale : 2,
 		// slideshow on / off
-		autoplay : false,
+		autoplay : true,
 		// keyboard navigation
 		keyboard : true,
 		// time between transitions
-		interval : 4000,
+		interval : 8000,
 		// callbacks
 		onBeforeChange : function( slide, idx ) { return false; },
 		onAfterChange : function( slide, idx ) { return false; }
