@@ -1,0 +1,62 @@
+.scrolldown {
+  width: 150px;
+  position:relative;
+  right: 0;left: 0;
+  margin:0 auto;
+  margin-top:190px;
+  margin-bottom:550px;
+}
+
+.scrolldown h4 {
+  text-align:center;
+  color:orange;
+  text-shadow:0 0 8px #ff6a13;
+}
+
+.scrolldown:after, .scrolldown:before {
+  content:"";
+  background: url(http://thomaspodgro.com/tctd/arrow_scroll.png) no-repeat;
+  height: 29px;
+  width: 42px;
+  position: absolute;
+  left:0;right:0;
+  margin:auto;
+  bottom:-40px;
+  animation: scrollincitation2 2s ease-in-out infinite;
+  
+  -webkit-animation: scrollincitation2 2s ease-in-out infinite;
+  -moz-animation: scrollincitation2 2s ease-in-out infinite;
+}
+
+.scrolldown:before {
+  bottom:-60px;
+  opacity: 0.3;
+  animation: scrollincitation 2s ease-in-out infinite;
+  
+  -webkit-animation: scrollincitation 2s ease-in-out infinite;
+  -moz-animation: scrollincitation 2s ease-in-out infinite;
+}
+
+@keyframes scrollincitation {
+	0%   {opacity:0.3;}
+
+	25%  {opacity:0.3;}
+
+	50%  {opacity:1;}
+
+	75%  {opacity:0.3;}
+
+	100% {opacity:0.3;}
+}
+
+@keyframes scrollincitation2 {
+	0%   {opacity:0.3;}
+
+	25%  {opacity:1;}
+
+	50%  {opacity:0.3;}
+
+	75%  {opacity:0.3;}
+
+	100% {opacity:0.3;}
+}
